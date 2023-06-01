@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    border: 1px solid blue;
+    border-radius: 40px;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.measurements{
+    display: flex;
+    width: 90vw;
+    height: 10vh;
+}
+
+.measurements *{
+    flex: 1;
+}
